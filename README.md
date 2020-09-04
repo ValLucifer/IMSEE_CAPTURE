@@ -23,9 +23,9 @@ IMSEE_CAPTURE服务于IMSEE模组，基于模组进行数据采集工作。
 ## 使用指南
 </br>连接设备
 1. 软件打开后如下:
-<br>![](/data/mp.png)
+<br>![软件主页](/data/mp.png)
 2. 连接模组后的运行状态如下：
-<br>![](/data/online.png)
+<br>![连接后的软件主页](/data/online.png)
 3. IMU数据以及图片数据可以单独选择并保存到指定文件夹。
 4. 采集的IMU、图片数据统一存在在名为ModuleData的文件夹下，目录结构为：
 * ModuleData
