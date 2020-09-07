@@ -21,7 +21,8 @@ IMSEE_CAPTURE服务于IMSEE模组，基于模组进行数据采集工作。
 4. 提供相机标定文件的获取；
 
 ## 使用指南
-</br>连接设备
+</br>Linux依赖：OpenCV 3.4.0或以上版本。
+</br>请以sudo ./run运行程序；注：错误提示为不可执行程序时，执行chmod +x IMSEE_CAPTURE run.sh
 1. 软件打开后如下:
 <br>![软件主页](/data/mp.png)
 2. 连接模组后的运行状态如下：
