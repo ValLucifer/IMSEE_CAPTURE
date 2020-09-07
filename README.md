@@ -32,12 +32,12 @@ IMSEE_CAPTURE服务于IMSEE模组，基于模组进行数据采集工作。
 * ModuleData
     * cam0 （左目数据）
         * data （存放图片数据集）
-        * data.csv ()
+        * data.csv () （保存内容：图片时间戳 图片时间戳.png）
     * cam1  （右目数据）
         * data  （存放图片数据集）
         * data.csv  （保存内容：图片时间戳 图片时间戳.png）
     * imu0  （IMU数据）
-        * data.csv  （保存内容：图片时间戳 图片时间戳.png）
+        * data.csv
     * Image （单张图片保存后生成的文件夹）
         * Left （左目图片）
         * Right  （右目图片）
