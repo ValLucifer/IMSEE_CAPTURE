@@ -1,7 +1,7 @@
 # IMSEE_CAPTURE
 ## 概述
 IMSEE_CAPTURE服务于IMSEE模组，基于模组进行数据采集工作。
-</br>目前软件支持的平台：
+</br>目前软件在以下平台测试通过：
 * windows10
 * ubuntu1604
 * ubuntu1804
@@ -22,7 +22,8 @@ IMSEE_CAPTURE服务于IMSEE模组，基于模组进行数据采集工作。
 
 ## 使用指南
 </br>Linux依赖：OpenCV 3.4.0或以上版本。
-</br>请以sudo ./run运行程序；注：错误提示为不可执行程序时，执行chmod +x IMSEE_CAPTURE run.sh
+</br>请以sudo ./run运行程序。
+</br>注：当出现错误提示为 不可执行程序时，请执行chmod +x IMSEE_CAPTURE run.sh后再次尝试。
 1. 软件打开后如下:
 <br>![软件主页](/data/mp.png)
 2. 连接模组后的运行状态如下：
@@ -31,14 +32,14 @@ IMSEE_CAPTURE服务于IMSEE模组，基于模组进行数据采集工作。
 4. 采集的IMU、图片数据统一存在在名为ModuleData的文件夹下，目录结构为：
 * ModuleData
     * cam0 （左目数据）
-        * data （存放图片数据集）
-        * data.csv () （保存内容：图片时间戳 图片时间戳.png）
+        * data (存放图像数据集)
+        * data.csv (保存内容：图片时间戳 图片时间戳.png)
     * cam1  （右目数据）
-        * data  （存放图片数据集）
-        * data.csv  （保存内容：图片时间戳 图片时间戳.png）
+        * data  （存放图像数据集）
+        * data.csv  (保存内容：图片时间戳 图片时间戳.png)
     * imu0  （IMU数据）
-        * data.csv
+        * data.csv (保存内容：imu #timestamp [ns],w_RS_S_x [rad s^-1],w_RS_S_y [rad s^-1],w_RS_S_z [rad s^-1],a_RS_S_x [m s^-2],a_RS_S_y [m s^-2],a_RS_S_z [m s^-2])
     * Image （单张图片保存后生成的文件夹）
-        * Left （左目图片）
-        * Right  （右目图片）
+        * Left (左目图片)
+        * Right  (右目图片)
 
